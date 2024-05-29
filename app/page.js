@@ -22,8 +22,8 @@ async function getData() {
   return filtered;
 };
 
-export default async function Home() {
-  const blogs = await getData();
+export default function Home() {
+  // const blogs = await getData();
 
   return (
     <>
@@ -33,7 +33,7 @@ export default async function Home() {
       <Skills />
       <Projects />
       <Education />
-      <Blog blogs={blogs} />
+      {/*<Blog blogs={blogs} />*/}
       <ContactSection />
     </>
   )

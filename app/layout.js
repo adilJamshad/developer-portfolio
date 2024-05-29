@@ -1,16 +1,16 @@
-import { GoogleTagManager } from '@next/third-parties/google';
-import { Inter } from 'next/font/google';
-import { ToastContainer } from 'react-toastify';
-import 'react-toastify/dist/ReactToastify.css';
-import Footer from './components/footer';
-import Navbar from './components/navbar';
-import './css/card.scss';
-import './css/globals.scss';
-const inter = Inter({ subsets: ['latin'] });
+import { GoogleTagManager } from "@next/third-parties/google";
+import { Inter } from "next/font/google";
+import { ToastContainer } from "react-toastify";
+import "react-toastify/dist/ReactToastify.css";
+import Footer from "./components/footer";
+import Navbar from "./components/navbar";
+import "./css/card.scss";
+import "./css/globals.scss";
+const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
-  title: 'Portfolio of Abu Said - Software Developer',
-  description: 'This is the portfolio of Abu Said. I am a full stack developer and a self taught developer. I love to learn new things and I am always open to collaborating with others. I am a quick learner and I am always looking for new challenges.',
+  title: "Portfolio of Adil Jamshad Ihsan - Software Developer",
+  description: `Hi, I'm Adil Ihsan, a Full Stack Developer with over 5 years of industrial experience. I specialize in creating efficient, scalable, and robust web solutions. My expertise spans across various technologies including React, Angular, Node.js, and more. I am passionate about problem-solving and constantly seek out new challenges. I always keep an eye for any interesting challenges and open source projects to contribute to.`,
 };
 
 export default function RootLayout({ children }) {
@@ -26,5 +26,5 @@ export default function RootLayout({ children }) {
       </body>
       <GoogleTagManager gtmId={process.env.NEXT_PUBLIC_GTM} />
     </html>
-  )
-};
+  );
+}

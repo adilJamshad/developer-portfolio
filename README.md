@@ -3,6 +3,7 @@
 </p>
 
 ---
+
 # [Built Portfolio With GitHub ](https://github.com/said7388/github-portfolio)
 
 ---
@@ -16,8 +17,6 @@
 # Demo :movie_camera:
 
 ![](./public/image/screen.png)
-
-## View live preview [here](https://abusaid.netlify.app/).
 
 ---
 
@@ -115,20 +114,20 @@ Eg:
 
 ```javascript
 export const personalData = {
-  name: "ABU SAID",
+  name: "Adil Jamshad Ihsan",
   profile: "/profile.png",
   designation: "Full-Stack Software Developer",
-  description: "My name is ABU SAID....",
-  email: "abusaid7388@gmail.com",
-  phone: "+8801608797655",
-  address: "Dhaka, Bangladesh",
-  github: "https://github.com/said7388",
-  facebook: "https://www.facebook.com/abusaid.riyaz/",
-  linkedIn: "https://www.linkedin.com/in/abu-said-bd/",
-  twitter: "https://twitter.com/said7388",
-  stackOverflow: "https://stackoverflow.com/users/16840768/abu-said",
-  leetcode: "https://leetcode.com/said3812/",
-  devUsername: "said7388",
+  description: "My name is Adil Jamshad Ihsan....",
+  email: "jamshad.adil@gmail.com",
+  phone: "+923030647322",
+  address: "Lahore, Pakistan",
+  github: "https://github.com/adilJamshad",
+  facebook: "",
+  linkedIn: "https://www.linkedin.com/in/ajihsan/",
+  twitter: "",
+  stackOverflow: "",
+  leetcode: "",
+  devUsername: "",
   resume: "...",
 };
 ```
